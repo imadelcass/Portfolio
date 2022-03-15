@@ -7,9 +7,9 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path='/Portfolio'  element={<Home />} />
-        <Route path='/Portfolio/projects' element={<Projects />} />
-        <Route path='/Portfolio/project/:slug' element={<Project />} />
+        <Route path='/' element={<Home />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='project/:slug' element={<Project />} />
       </Routes>
     </Layout>
   );
