@@ -102,7 +102,6 @@ $border: 1px solid white;
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
   .container {
-    border: $border;
     .title {
       text-align: center;
       color: $witheClr;
