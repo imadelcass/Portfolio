@@ -55,7 +55,7 @@ function Home() {
           </div>
           <a href={CV}>My resume</a>
         </div>
-        <Link to='/projects' className='arrow'>
+        <Link to='/Portfolio/projects' className='arrow'>
           <MdOutlineArrowForwardIos />
         </Link>
       </div>

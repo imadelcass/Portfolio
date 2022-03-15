@@ -6,7 +6,7 @@ import { MdOutlineArrowBackIos } from 'react-icons/md';
 function Projects() {
   let navigate = useNavigate();
   const navToProject = project => {
-    navigate(`/project/${project.slug}`, {
+    navigate(`/Portfolio/project/${project.slug}`, {
       state: project,
     });
   };
@@ -14,7 +14,7 @@ function Projects() {
     <div className={style.container}>
       <h1 className={style.title}>Projects</h1>
       <div className={style.wrapper}>
-        <Link to='/' className={style.arrow}>
+        <Link to='/Portfolio' className={style.arrow}>
           <MdOutlineArrowBackIos />
         </Link>
         <div className={style.projects}>
@@ -42,7 +42,7 @@ function Projects() {
             </div>
           ))}
         </div>
-        <Link to='/' className={style.arrow}>
+        <Link to='/Portfolio' className={style.arrow}>
           {/* <MdOutlineArrowForwardIos /> */}
         </Link>
       </div>

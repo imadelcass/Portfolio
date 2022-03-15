@@ -13,7 +13,7 @@ function Project() {
     <div className={style.container}>
       <h1 className={style.title}>{project.name}</h1>
       <div className={style.wrapper}>
-        <Link to='/projects' className={style.arrow}>
+        <Link to='/Portfolio/projects' className={style.arrow}>
           <MdOutlineArrowBackIos />
         </Link>
         <div className={style.project}>
@@ -41,7 +41,7 @@ function Project() {
             <img src={Code} alt='' />
           </a>
         </div>
-        <Link to='/' className={style.arrow}>
+        <Link to='/Portfolio' className={style.arrow}>
           <MdOutlineArrowForwardIos />
         </Link>
       </div>

@@ -7,13 +7,13 @@ function Navbar() {
     <>
       <div className={`navbar  ${navbar && 'active'}`}>
         <div className='links'>
-          <Link onClick={() => setNavbar(() => false)} to='/' href=''>
+          <Link onClick={() => setNavbar(() => false)} to='/Portfolio'>
             home
           </Link>
-          <Link onClick={() => setNavbar(() => false)} to='/projects' href=''>
+          <Link onClick={() => setNavbar(() => false)} to='/Portfolio/projects'>
             projects
           </Link>
-          <Link onClick={() => setNavbar(() => false)} to='/' href=''>
+          <Link onClick={() => setNavbar(() => false)} to='/Portfolio'>
             contact
           </Link>
           {/* <Link to='/' href=''>projects</Link> */}
