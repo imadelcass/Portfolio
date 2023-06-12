@@ -3,7 +3,15 @@ import Project from './pages/Project';
 import Home from './pages/Home';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
+import { useEffect } from 'react';
+
 function App() {
+
+  useEffect(() => {
+    window.location.href = 'https://www.imadelcass.com';
+  }, []);
+
+
   return (
     <Layout>
       <Routes>
